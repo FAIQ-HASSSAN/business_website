@@ -1,0 +1,1598 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  /* color: antiquewhite; */
+  background-color: white;
+  display: flex;
+  border-radius: 4px;
+}
+
+.logo {
+  flex: 30%;
+  /* background-color: aquamarine; */
+}
+
+.nav {
+  flex: 55%;
+  /* background-color: blue; */
+}
+
+.button_one {
+  flex: 15%;
+  /* background-color: chartreuse; */
+}
+
+.nav ul {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  margin-right: 3%;
+  margin-top: 2%;
+  color: black;
+}
+
+.center {
+  margin-left: 1%;
+  margin-top: 5%;
+}
+
+button#button1 {
+  background-color: black;
+  padding-left: 8%;
+  padding-right: 8%;
+  /* padding: 1% 7%; */
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: white;
+}
+
+button#button2 {
+  background-color: #d3ae3b;
+  padding-left: 8%;
+  padding-right: 8%;
+  /* padding: 1% 7%; */
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: white;
+  margin-left: -2%;
+}
+
+button {
+  border-radius: 6px;
+}
+
+.nav li:hover {
+  color: #d3ae3b;
+}
+
+/* // about and text or third part  */
+
+.about_and_text {
+  width: 100%;
+  height: 84vh;
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.one_for_image {
+  flex: 35%;
+  /* background-color: chartreuse; */
+}
+
+.for_about_interesting_fx {
+  flex: 65%;
+  /* background-color: crimson; */
+}
+
+.logo ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.outerbox {
+  width: 69%;
+  height: 55vh;
+  background-color: #d3ae3b;
+  margin-left: 22%;
+  margin-top: 22%;
+  position: relative;
+}
+
+.inner_box {
+  width: 92%;
+  height: 51vh;
+  background-color: #d3ae3b;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  border-style: solid;
+  border-color: white;
+  /* /* bottom: 41px; */
+  border-width: 2px;
+}
+
+.for_circle {
+  width: 69%;
+  height: 28vh;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 64px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  border-style: solid;
+  border-color: white;
+}
+
+.for_circle h1 {
+  font-size: 91px;
+  position: absolute;
+  right: 20px;
+  top: 29px;
+  color: white;
+}
+
+.for_first_three_icons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.for_first_three_icons {
+  position: relative;
+  width: 20%;
+  height: 40vh;
+  /* background-color: blue; */
+  top: -206px;
+  right: -8px;
+}
+
+.for_second_three_icons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.for_second_three_icons {
+  position: relative;
+  width: 20%;
+  height: 40vh;
+  /* background-color: blue; */
+  top: -414px;
+  left: 177px;
+}
+
+.for_heading {
+  margin-top: 75px;
+}
+
+.To_Highlight {
+  color: #d3ae3b;
+}
+
+.lists ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; /* Remove default bullets */
+}
+
+.lists ul li {
+  margin-top: 13px;
+}
+
+.lists ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: lightgrey; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.lists {
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: 6rem;
+  color: white;
+  margin-top: 6px;
+}
+
+.for_first_three_icons i.fa.fa-car,
+.for_second_three_icons i.fa.fa-car {
+  border: 1px solid;
+  margin: auto;
+  width: 106%;
+  font-size: 41px;
+  height: 10vh;
+  border-radius: 50%;
+  color: white;
+}
+
+/* ............... */
+
+.card-body h5 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+p.card-text {
+  text-align: center;
+  margin-left: 67px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.one {
+  flex: 50%;
+}
+
+.two {
+  flex: 50%;
+}
+
+.one ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 14px;
+}
+
+.two ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+/* pool card css  */
+
+.wrapper {
+  display: flex;
+}
+
+.one {
+  flex: 50%;
+}
+
+.two {
+  flex: 50%;
+}
+
+.one ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 14px;
+}
+
+.two ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+.circle.rounded-circle {
+    width: 43%;
+    height: 20%;
+    background-color: #d3ae3b;
+    margin-left: 24%;
+}
+
+
+.circle h3 {
+  padding-top: 10%;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 31%;
+}
+
+.one ul {
+  margin-left: -47%;
+}
+
+h5.card-title {
+  margin-top: 17%;
+}
+
+/* Your existing CSS styles for the card and circle */
+
+.cutomize_col_effect {
+  /* ... */
+  transition: background-color 0.3s;
+}
+
+.cutomize_col_effect:hover {
+  background-color: #d3ae3b;
+}
+
+.cutomize_col_effect:hover .circle.rounded-circle {
+  background-color: white;
+}
+
+.cutomize_col_effect:hover .circle.rounded-circle h3 {
+  color: #d3ae3b;
+}
+
+.cutomize_col_effect:hover .circle.rounded-circle p {
+  color: #d3ae3b;
+}
+
+.wrapper {
+  transition: color 0.3s;
+}
+
+.cutomize_col_effect:hover .wrapper {
+  color: white;
+}
+
+.circle {
+  /* ... */
+  transition: background-color 0.3s;
+}
+
+/* Apply styles directly to the .change_color class */
+.btn.change_color {
+  background-color: #d3ae3b;
+  border-color: #d3ae3b;
+  color: white;
+}
+
+.cutomize_col_effect:hover .change_color {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.cutomize_col_effect:hover .card-title {
+  color: white;
+}
+
+.cutomize_col_effect:hover .card-text {
+  color: white;
+}
+
+svg.bi.bi-arrow-right {
+  padding-right: -28%;
+  /* margin-right: -32%; */
+  position: relative;
+  right: -15%;
+}
+
+button.btn.btn-outline-primary.change_color {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin-left: 18%; */
+  position: relative;
+  right: -18%;
+  top: 3%;
+  border-radius: 5px;
+  padding: 2% 10%;
+}
+
+span.button-text {
+  margin-left: -13%;
+}
+
+svg.bi.bi-arrow-left {
+  position: relative;
+  right: -25%;
+}
+
+.circle.rounded-circle h3,
+p {
+  color: white;
+}
+
+.pool_heading.border-top {
+  width: 100%;
+  text-align: center;
+  min-height: 20vh;
+}
+
+p.h1 {
+  margin-left: 15%;
+  margin-top: 4%;
+}
+
+.row.override_row {
+  width: 90%;
+  margin-left: 7%;
+}
+
+p.card-text {
+  text-align: center;
+  margin-left: 34px;
+  font-size: 12px;
+  color: black;
+}
+
+.circle.rounded-circle p {
+  margin-left: 12%;
+  font-size: 13px;
+}
+
+.to_overide_col,
+.to_overide_col1,
+.to_overide_col2 {
+  transition: transform 0.3s ease; /* Add transition for transform change */
+  transform-origin: center; /* Set transform origin to center */
+}
+
+.to_overide_col:hover,
+.to_overide_col1:hover,
+.to_overide_col2:hover {
+  transform: scaleY(1.1) translateY(-0.1%); /* Increase height by 20% (10% from top, 10% from bottom) on hover */
+}
+
+.container.text-center.cutomize-text_center {
+  min-height: 110vh;
+}
+
+/* reliabilty , security , assurance */
+
+.card-deck.customize_card_deck {
+  width: 79%;
+  margin-left: 11%;
+}
+
+p.card-text.customize-card-text {
+  color: white;
+  font-size: 13px;
+}
+
+h5.card-title.customize-card-title {
+  margin-top: 17%;
+  margin-left: 10%;
+  color: white;
+}
+
+.to_customize_main_card {
+  width: 100%;
+  min-height: 121vh;
+  background-color: #181e28;
+}
+
+.card.cutomize_card {
+  margin-top: 27%;
+  background-color: #181e28;
+  border: none;
+}
+
+/* /// form   */
+
+form.to_customize_form {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+button.to_customize_sumbit_button_color {
+  margin-left: 79%;
+  background-color: #d3ae3b;
+  border-color: white;
+  border-radius: 5px;
+}
+
+button.to_customize_sumbit_button_color {
+  /* margin-left: 73%; */
+  background-color: rgb(211, 174, 59);
+  border-color: white;
+  border-radius: 5px;
+  padding-right: -3px;
+  width: 27%;
+  margin-left: 73%;
+}
+
+h1.to_center_heading {
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 7%;
+}
+
+.form_wrapper {
+  width: 92%;
+  height: 54vh;
+  background-color: white;
+}
+
+div.for_buttom_border {
+  width: 100%;
+  height: 1vh;
+  border-bottom: 1px solid lightgray;
+}
+
+.wrap_contact_us_heading_and_form {
+  border: 1px solid white;
+  border-top: 3px solid #d3ae3b;
+  width: 50%;
+  margin: auto;
+}
+
+.for_spacing {
+  width: 100%;
+  height: 13vh;
+}
+
+.to_customize_footer_container {
+  width: 100%;
+}
+
+form.to_custmoize_button_together {
+  border: 1px solid;
+  border-radius: 3px;
+  color: white;
+}
+
+button.to_cutmoize_bg_and_color {
+  background-color: black;
+  color: white;
+}
+
+button.to_cutmoize_bg_and_color:hover {
+  background-color: black;
+  color: white;
+}
+
+button.to_give_left_border_for_button {
+  border-left: 1px solid;
+  color: white;
+  background-color: #d3ae3b;
+}
+
+button.to_give_left_border_for_button:hover {
+  border-left: 1px solid;
+  color: white;
+  background-color: #d3ae3b;
+}
+
+button.to_give_left_border_for_button:hover {
+  border-left: 1px solid;
+}
+
+ul.for_margin_right_to_navbar {
+  margin-left: 33%;
+}
+
+a.to_hover_li:hover {
+  color: #d3ae3b;
+}
+
+span.to_hover_li:hover {
+  color: #d3ae3b;
+}
+
+p.to_customize_parapgraph_color {
+  color: black;
+}
+
+a.text-white {
+  text-decoration: none;
+}
+
+a.text-white:hover {
+  text-decoration: none;
+}
+
+.to_margin_copyright_text {
+  margin-left: 37%;
+}
+
+h2.to_customize_h2_heading {
+  margin-top: 16%;
+  font-size: 102px;
+  color: white;
+}
+
+.for_second_three_icons {
+  position: relative;
+  width: 20%;
+  height: 40vh;
+  /* background-color: blue; */
+  top: -466px;
+  left: 199px;
+}
+
+i.to_customize_second_car_icon {
+  /* margin-top: 55%; */
+  padding-top: 16%;
+}
+
+i.to_customize_car_icon {
+  /* margin-top: 55%; */
+  padding-top: 16%;
+}
+
+/* second part  with background image and text on it */
+
+.for_background_image {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 73%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.first_text {
+  color: #d3ae3b;
+  text-align: center;
+  /* margin-bottom: 7px; */
+}
+.second_text {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 12px;
+}
+
+p.third_texxt {
+  color: white;
+  text-align: center;
+  margin: revert;
+}
+
+button.register_button {
+  color: white;
+  text-align: center;
+  background-color: #d3ae3b;
+  width: 10%;
+  margin-left: 45%;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main_div {
+  padding-top: 8%;
+  width: 100%;
+  height: 355px;
+}
+
+p.to_margin_text_for_crypto_exchange {
+  /* margin-left: 13%; */
+  color: #d3ae3b;
+}
+
+/* <!-- build complete solution and 4 logos  -->  */
+
+.items_parent {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  background-color: white;
+  grid-gap: 28%;
+}
+
+.items-1 {
+  background-color: white;
+}
+
+.items-2 {
+  background-color: white;
+}
+
+.items-3 {
+  background-color: white;
+}
+
+.items-4 {
+  background-color: white;
+}
+
+/* .items-1,
+.items-2,
+.items-3,
+.items-4 {
+  width: 225%;
+  min-height: 180px;
+  border: 1px white;
+  border-radius: 8px;
+} */
+
+.items-1:hover .set_paragraph_color,
+.items-2:hover .set_paragraph_color,
+.items-3:hover .set_paragraph_color,
+.items-4:hover .set_paragraph_color {
+  color: white;
+}
+
+.items-1,
+.items-2,
+.items-3,
+.items-4 {
+  transition: color 0.1s;
+}
+
+.items-1:hover,
+.items-2:hover,
+.items-3:hover,
+.items-4:hover {
+  background-color: #d3ae3b;
+  color: white;
+}
+
+.items-3,
+.items-4 {
+  margin-top: 38%;
+}
+
+.items-2,
+.items-4 {
+  margin-left: 12%;
+}
+
+p.set_paragraph_color {
+  color: black;
+  margin: auto;
+}
+
+.to_customize_container_class_for_margin_top {
+  margin-top: 7%;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+.for_cutomize_main_card_div {
+  border: none;
+}
+
+.card-header.bg-transparent.for_customize_card_header {
+  border: none;
+}
+
+.card-footer.bg-transparent {
+  border: none;
+}
+
+.card.for_cutomize_main_card_div {
+  border: none;
+}
+
+.for_costomize_row {
+  height: 377px;
+}
+
+.cutomize_new_col {
+  text-align: left;
+}
+
+/* // for fx and six logos  */
+
+.for_first_three_logos {
+  position: absolute;
+}
+
+.for_fx_circle {
+  position: absolute;
+}
+
+.for_second_three_logos {
+  position: absolute;
+}
+
+.about_and_text {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  text-align: center;
+  font-size: large;
+  height: 0%;
+}
+
+.for_outer_border {
+  width: 50%;
+  background-color: #d3ae3b;
+  border-radius: 1px solid white;
+  height: 379px;
+  margin: auto;
+  margin-top: 17%;
+  padding-top: 3%;
+}
+
+.for_inner_border {
+  width: 92%;
+  height: 354px;
+  background-color: #d3ae3b;
+  border: 1px solid white;
+  margin: auto;
+  position: relative;
+}
+
+.for_first_three_logos {
+  position: absolute;
+  /* background-color: burlywood; */
+  top: 2%;
+  display: flex;
+  left: 77%;
+  /* right: 70%; */
+  flex-direction: column;
+}
+
+.logo-img {
+  margin-top: 65%;
+}
+
+.for_second_three_logos {
+  position: absolute;
+  /* background-color: burlywood; */
+  top: 2%;
+  display: flex;
+  left: 5%;
+  /* right: 70%; */
+  flex-direction: column;
+}
+
+.for_fx_circle {
+    position: relative;
+}
+h1.for_fx_heading {
+    /* margin-left: 57%; */
+    /* margin-top: 115%; */
+    width: 147%;
+    height: 159px;
+    border-radius: 50%;
+    font-size: 97px;
+    text-align: center;
+    background-color: rgb(211, 174, 59);
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+
+.items-1 , .items-2 , .items-3 , .items-4
+    {
+        height : max-content;
+    }
+
+
+    .items-2 , .items-4 {
+        padding-top: 18px;
+    }
+
+@media screen and (min-width:360px) and (max-width:480px)
+{
+    .main_div {
+        padding-top: 8%;
+        width: 100%;
+        height: 17rem;
+        text-align: center;
+        font-size: 13px;
+        margin: auto;
+    }
+
+    button.register_button {
+        color: white;
+        width: initial;
+        margin: initial;
+        /* text-align: center; */
+        background-color: #d3ae3b;
+        /* width: 10%; */
+        /* margin-left: 45%; */
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    /* ABOUT AND INTRESTING FX   */
+
+
+    .for_four_logos {
+        display: none;
+    }
+
+    .about_and_text {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin: auto;
+        text-align: center;
+        font-size: large;
+        height: 0%;
+    }
+
+
+
+    /* select a pool  3  card */
+
+    p.h1 {
+        /* margin-left: 15%; */
+        margin: initial;
+        margin-top: 4%;
+    }
+
+    .pool_heading.border-top {
+        /* width: 100%; */
+        text-align: center;
+        min-height: 6rem;
+    }
+
+    .cutomize_col_effect {
+
+        margin: initial;
+        margin-bottom: 33%;
+    }
+  
+    .to_customize_container_class_for_margin_top {
+        width: auto;
+        height: 910px;
+        /* background-color: aquamarine; */
+    }
+
+    .for_costomize_row {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .items_parent {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px;
+        background-color: white;
+        /* grid-gap: 28%; */
+        row-gap: 79%;
+        column-gap: 26%;
+        margin-left: 10%;
+    }
+
+    .items-1 , .items-2 , .items-3 , .items-4
+    {
+        margin: initial;
+        padding: initial;
+    }
+
+
+    .cutomize_new_col {
+        /* text-align: left; */
+        text-align: center;
+        font-size: large;
+    }
+
+    p.customize_card_text_for_color {
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .wrap_contact_us_heading_and_form {
+        border: 1px solid white;
+        border-top: 3px solid #d3ae3b;
+        width: 92%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    form.to_customize_form {
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;
+        text-align: end;
+    }
+
+    button.to_customize_sumbit_button_color {
+        /* margin-left: 73%; */
+        margin: initial;
+        background-color: rgb(211, 174, 59);
+        border-color: white;
+        border-radius: 5px;
+        padding-right: -3px;
+        width: initial;
+        /* width: 27%; */
+        /* margin-left: 73%; */
+       
+    }
+
+
+    .to_margin_copyright_text {
+        margin: auto;
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:481px) and (max-width:768px)
+{
+    .main_div {
+        padding-top: 8%;
+        width: 100%;
+        height: 17rem;
+        text-align: center;
+        font-size: 13px;
+        margin: auto;
+    }
+
+    button.register_button {
+        color: white;
+        width: initial;
+        margin: initial;
+        /* text-align: center; */
+        background-color: #d3ae3b;
+        /* width: 10%; */
+        /* margin-left: 45%; */
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    /* ABOUT AND INTRESTING FX   */
+
+
+    .for_four_logos {
+        display: none;
+    }
+
+    .about_and_text {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin: auto;
+        text-align: center;
+        font-size: large;
+        height: 0%;
+    }
+
+
+
+    /* select a pool  3  card */
+
+    p.h1 {
+        /* margin-left: 15%; */
+        margin: initial;
+        margin-top: 4%;
+    }
+
+    .pool_heading.border-top {
+        /* width: 100%; */
+        text-align: center;
+        min-height: 6rem;
+    }
+
+    .cutomize_col_effect {
+        margin: initial;
+        margin-bottom: 33%;
+        font-size: 21px;
+        text-align: center;
+    }
+  
+    .to_customize_container_class_for_margin_top {
+        width: auto;
+        height: 910px;
+        /* background-color: aquamarine; */
+    }
+
+    .for_costomize_row {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .items_parent {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px;
+        background-color: white;
+        /* grid-gap: 28%; */
+        row-gap: 79%;
+        margin-left: 19%;
+        column-gap: 26%;
+    }
+
+    .items-1 , .items-2 , .items-3 , .items-4
+    {
+        margin: initial;
+        padding: initial;
+    }
+
+
+    .cutomize_new_col {
+        /* text-align: left; */
+        text-align: center;
+        font-size: large;
+    }
+
+    p.customize_card_text_for_color {
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .wrap_contact_us_heading_and_form {
+        border: 1px solid white;
+        border-top: 3px solid #d3ae3b;
+        width: 92%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    form.to_customize_form {
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;
+        text-align: end;
+    }
+
+    button.to_customize_sumbit_button_color {
+        /* margin-left: 73%; */
+        margin: initial;
+        background-color: rgb(211, 174, 59);
+        border-color: white;
+        border-radius: 5px;
+        padding-right: -3px;
+        width: initial;
+        /* width: 27%; */
+        /* margin-left: 73%; */
+       
+    }
+
+
+    .to_margin_copyright_text {
+        margin: auto;
+        text-align: center;
+    }
+
+    
+    h5.card-title {
+
+        margin: initial;
+        padding: initial;
+        margin-top: 11%;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    p.card-text {
+        /* text-align: center; */
+        /* margin-left: 34px; */
+        /* font-size: 12px; */
+        margin: initial;
+        padding: initial;
+        color: black;
+        font-size: 18px;
+    }
+
+    .circle.rounded-circle {
+        width: 25%;
+        height: 16%;
+        background-color: #d3ae3b;
+        /* margin-left: 24%; */
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px) and (max-width:912px)
+{
+    
+.main_div 
+{
+    padding-top: 8%;
+    width: 100%;
+    height: 25rem;
+    text-align: center;
+    font-size: 23px;
+    margin: auto;
+}
+
+h1.buy_crypto {
+    font-size: xxx-large;
+    text-align: center;
+    margin: auto;
+}
+
+button.register_button 
+{
+
+    margin: initial;
+    padding: initial;
+    width: initial;
+    color: white;
+    /* text-align: center; */
+    background-color: #d3ae3b;
+    /* width: 10%; */
+    /* margin-left: 45%; */
+    border-radius: 9px;
+    padding: 13px 12px;
+    /* padding-bottom: 12px; */
+}
+
+.for_four_logos {
+    display: none;
+}
+
+.about_and_text {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    height: 0%;
+    font-size: x-large;
+}
+
+p.h1 {
+    /* margin-left: 15%; */
+    margin: initial;
+    margin-top: 4%;
+}
+
+.cutomize-text_center {
+    max-width: max-content;
+}
+
+.cutomize_col_effect {
+    margin: initial;
+    margin-bottom: 21%;
+}
+
+.row.override_row {
+    width: 90%;
+    margin: initial;
+    margin: auto;
+}
+
+
+.rounded-circle {
+
+    width: initial;
+    height: initial;
+    width: 34%;
+    height: 19%;
+    background-color: #d3ae3b;
+    margin: initial;
+    text-align: center;
+    margin: auto;
+}
+
+.to_customize_main_card {
+    width: 100%;
+    min-height: 43rem;
+    background-color: #181e28;
+    text-align: center;
+    margin: auto;
+}
+.for_costomize_row {
+    /* height: 377px; */
+    display: flex;
+    flex-direction: column;
+    height: 61rem;
+    /* background-color: antiquewhite; */
+}
+
+.cutomize_new_col {
+    text-align: center;
+    font-size: x-large;
+    flex: initial;
+}
+
+
+p.for_ma_and_pa {
+    margin: initial;
+    font-size: 21px;
+    margin: auto;
+    /* text-align: center; */
+    /* margin-left: 34px; */
+    /* font-size: 12px; */
+
+
+}
+
+.items_parent {
+    display: grid;
+    grid-template-columns: 301px 301px;
+    grid-template-rows: 20px 200px;
+    background-color: white;
+    /* grid-gap: 0%; */
+    margin-left: 1%;
+    column-gap: 2%;
+    row-gap: 55%;
+}
+
+.wrap_contact_us_heading_and_form {
+    border: 1px solid white;
+    border-top: 3px solid #d3ae3b;
+    width: 106%;
+    margin: auto;
+}
+
+.to_margin_copyright_text
+ {
+    margin: initial;
+    text-align: center;
+    padding: initial;
+    margin-left: 112pt
+    /* margin-left: 37%; */
+}
+
+.form_wrapper {
+    width: 92%;
+    height: 28rem;
+    background-color: white;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:913px) and (max-width:1280px)
+{
+    .for_costomize_row {
+        height: 377px;
+        width: 100%;
+        text-align: center;
+        margin: initial;
+        margin: auto;
+        padding: initial;
+    }
+
+    .cutomize_new_col {
+        margin: initial;
+        padding: initial;
+        text-align: center;
+        margin: auto;
+    }
+
+    .card.for_cutomize_main_card_div {
+        border: none;
+        text-align: center;
+        margin: auto;
+        font-size: medium;
+    }
+
+    p.for_ma_and_pa {
+        text-align: center;
+        margin: initial;
+        padding: initial;
+        font-size: initial;
+    }
+
+    .items_parent {
+        display: grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 100px 100px;
+        background-color: white;
+        column-gap: initial;
+       
+    }
+
+    .wrap_contact_us_heading_and_form {
+        border: 1px solid white;
+        border-top: 3px solid #d3ae3b;
+        width: 106%;
+        margin: auto;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0.for_margin_right_to_navbar.to_customize_nav_bar_text {
+        margin-left: 8%;
+        font-size: 16px;
+    }
+
+    button.register_button {
+        color: white;
+        /* text-align: center; */
+        background-color: #d3ae3b;
+        /* width: 10%; */
+        /* margin-left: 45%; */
+        padding: initial;
+        border-radius: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: initial;
+    }
+
+    .button_class {
+        margin: initial;
+        margin: auto;
+        text-align: center;
+    }
+
+     
+    .form_wrapper {
+        width: 92%;
+        height: 68vh;
+        background-color: white;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:1281px) and (max-width:1919px)
+{
+    .for_costomize_row {
+        height: 377px;
+        width: 100%;
+        text-align: center;
+        margin: initial;
+        margin: auto;
+        padding: initial;
+    }
+
+    .cutomize_new_col {
+        margin: initial;
+        padding: initial;
+        text-align: center;
+        margin: auto;
+    }
+
+    .card.for_cutomize_main_card_div {
+        border: none;
+        text-align: center;
+        margin: auto;
+        font-size: medium;
+    }
+
+    p.for_ma_and_pa {
+        text-align: center;
+        margin: initial;
+        padding: initial;
+        font-size: initial;
+    }
+
+    .items_parent {
+        display: grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 100px 100px;
+        /* background-color: white; */
+        column-gap: initial;
+       
+    }
+
+    .wrap_contact_us_heading_and_form {
+        border: 1px solid white;
+        border-top: 3px solid #d3ae3b;
+        width: 106%;
+        margin: auto;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0.for_margin_right_to_navbar.to_customize_nav_bar_text {
+        margin-left: 8%;
+        font-size: 16px;
+    }
+
+    button.register_button {
+        color: white;
+        /* text-align: center; */
+        background-color: #d3ae3b;
+        /* width: 10%; */
+        /* margin-left: 45%; */
+        padding: initial;
+        border-radius: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: initial;
+    }
+
+    .button_class {
+        margin: initial;
+        margin: auto;
+        text-align: center;
+    }
+
+     
+    .form_wrapper {
+        width: 92%;
+        height: 68vh;
+        /* background-color: white; */
+    }
+
+
+    li.nav-item {
+        margin: initial;
+        margin-left: 20px;
+    }
+
+  
+
+    /* /////////////// */
+    
+}
+
+
+h1.for_fx_heading {
+    /* margin-left: 57%; */
+    /* margin-top: 115%; */
+    width: 50%;
+    height: 129px;
+    border-radius: 50%;
+    font-size: 97px;
+    text-align: center;
+    background-color: rgb(211, 174, 59);
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    /* top: 151%; */
+    /* left: 50%; */
+    right: 26px;
+    /* transform: translateY(-50%) translateX(-50%); */
+    top: 107px;
+}
